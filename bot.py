@@ -14,7 +14,7 @@ async def on_ready():
 @bot.command()
 async def hello(ctx):
     await ctx.send(f'Cześć!')
-    
+
 @bot.command()
 async def bye(ctx):
     await ctx.send(f'\\U0001f642')
