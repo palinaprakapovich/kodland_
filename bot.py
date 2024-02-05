@@ -33,4 +33,4 @@ async def repeat(ctx, times: int, content='repeating...'):
     for i in range(5):
         await ctx.send(content)
 
-bot.run(" your token")
+bot.run("your token")
