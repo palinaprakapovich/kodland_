@@ -119,7 +119,7 @@ async def siatki_rybackie(ctx):
         picture = discord.File(f)
     await ctx.send(file=picture)
 
-bot.run("MTIwMDg4NzAxNDQzODk5MzkyMA.Ga3PnB.1Mi8TfDOJZpjiJ9NNxCQbKBlPVTKBjceeU7RtE")
+bot.run("Тоken")
 
 
 
