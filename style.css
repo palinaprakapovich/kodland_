@@ -1,0 +1,31 @@
+body {
+    font-family: Arial,  sans-serif; /* Rodzina czcionek */
+    font-size: 11px; /* Rozmiar głównej czcionki w <p></p> tag  */
+    background-color: #f0f0f0; /* Kolor tła strony internetowej */
+    color: #333333; /* Kolor tła strony internetowej*/ 
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+
+    50% {
+      color: red;
+    }
+
+    100% {
+      color: blue;
+    }
+  }
+h1:hover {
+    color: #00a800; /* Kolor nagłówka */
+    font-size: 24px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+    animation: color-change 3s infinite
+}
+h2 {
+    color: #a80be6;
+    font-size: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
